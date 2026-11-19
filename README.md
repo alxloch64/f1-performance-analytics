@@ -22,4 +22,4 @@ Analyser **19 saisons de Formule 1 (2006–2024)** afin d'identifier les leviers
 * **Recommandation pilotes :** Choix du duo **Sergio Pérez & Valtteri Bottas** pour privilégier l'expérience, la régularité et un faible taux d'abandon.
 
 ## 👥 Équipe
-Projet réalisé par Esther, Merryl, Alexis Lochereau et Simon.
+Projet réalisé par Esther, Merryl, Simon, et moi-même.
