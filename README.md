@@ -4,6 +4,7 @@ Projet de fin de formation Data Analytics (**Le Wagon**, 2026) réalisé en équ
 
 ## 📊 Dashboard Interactif (Looker Studio)
 👉 **[Accéder au rapport interactif Looker Studio](https://datastudio.google.com/s/pBIzWJL2CU8)**
+📄 **[Consulter la présentation complète du projet (PDF)](docs/F1_Project.pdf)**
 
 *(Utilisez les menus déroulants en haut de chaque page pour filtrer par saison, pilote ou circuit.)*
 
