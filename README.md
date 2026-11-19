@@ -1,0 +1,25 @@
+# 🏎️ F1 Performance Analytics (2006–2024) — Cadillac F1 Case Study
+
+Projet de fin de formation Data Analytics (**Le Wagon**, 2026) réalisé en équipe de 4 personnes et présenté devant un jury et un public de 60 personnes.
+
+## 📊 Dashboard Interactif (Looker Studio)
+👉 **[Accéder au rapport interactif Looker Studio](https://datastudio.google.com/s/pBIzWJL2CU8)**
+
+*(Utilisez les menus déroulants en haut de chaque page pour filtrer par saison, pilote ou circuit.)*
+
+## 🎯 Objectif du projet
+Analyser **19 saisons de Formule 1 (2006–2024)** afin d'identifier les leviers clés permettant de transformer la régularité en titres mondiaux, et formuler une recommandation data-driven sur le duo de pilotes idéal pour l'arrivée de l'écurie **Cadillac F1**.
+
+## 🛠️ Stack Technique
+* **Collecte (Web Scraping) :** Python
+* **Nettoyage & Préparation :** Python (Pandas)
+* **Data Warehouse & Modélisation :** SQL sur Google BigQuery
+* **Data Visualization :** Looker Studio
+
+## 📈 Principaux Insights
+* **3 ères de domination :** Ère compétitive (2006–2013), Ère Mercedes (2014–2021) et Ère Verstappen / Red Bull (2022–2024).
+* **Fiabilité constructeurs :** Un taux de fiabilité supérieur à **90 %** est indispensable pour jouer le championnat.
+* **Recommandation pilotes :** Choix du duo **Sergio Pérez & Valtteri Bottas** pour privilégier l'expérience, la régularité et un faible taux d'abandon.
+
+## 👥 Équipe
+Projet réalisé par Esther, Merryl, Alexis Lochereau et Simon.
