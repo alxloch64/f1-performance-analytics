@@ -4,9 +4,23 @@ Projet de fin de formation Data Analytics (**Le Wagon**, 2026) réalisé en équ
 
 ## 📊 Dashboard Interactif (Looker Studio)
 👉 **[Accéder au rapport interactif Looker Studio](https://datastudio.google.com/s/pBIzWJL2CU8)**
+
 📄 **[Consulter la présentation complète du projet (PDF)](docs/F1_Project.pdf)**
 
 *(Utilisez les menus déroulants en haut de chaque page pour filtrer par saison, pilote ou circuit.)*
+
+## 🖼️ Aperçu du Dashboard Interactif
+
+**Vue d'ensemble pilotes & filtrage par saison**
+![Drivers Overview](looker/drivers-overview.png)
+![Drivers Overview 2024](looker/drivers-overview-2024.png)
+
+**Comparateur dynamique Head-to-Head**
+![Verstappen vs Hamilton](looker/verstappen-hamilton.png)
+
+**Analyse par circuit (Barcelone & Monaco)**
+![Circuit Barcelone](looker/circuit-barcelone.png)
+![Circuit Monaco](looker/circuit-monaco.png)
 
 ## 🎯 Objectif du projet
 Analyser **19 saisons de Formule 1 (2006–2024)** afin d'identifier les leviers clés permettant de transformer la régularité en titres mondiaux, et formuler une recommandation data-driven sur le duo de pilotes idéal pour l'arrivée de l'écurie **Cadillac F1**.
