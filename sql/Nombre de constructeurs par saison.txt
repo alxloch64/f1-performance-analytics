@@ -1,0 +1,8 @@
+SELECT COUNT(DISTINCT cr.constructorId) AS nb_constructor
+            , year
+FROM `f1-project-498108.1_Source.constructor_results` as cr
+LEFT JOIN `f1-project-498108.1_Source.races` as r
+ON cr.raceId = r.raceId
+GROUP BY year
+HAVING year >= 2006
+ORDER BY year ASC

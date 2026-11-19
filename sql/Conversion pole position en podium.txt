@@ -1,0 +1,19 @@
+WITH pole_conversion AS (
+SELECT
+year, circuit_name,driver_name,constructor_name, grid,positionOrder,points,status, status_category,
+CASE WHEN grid = 1 AND positionOrder = 1 THEN 1
+    ELSE 0
+    END AS pole_converted
+FROM `f1-project-498108.2_Intermediate.drivers_info`
+WHERE grid = 1
+)
+
+SELECT
+pc.year, pc.circuit_name, pc.driver_name,pc.constructor_name, pc.grid,pc.positionOrder, pc.points,
+pc.pole_converted,
+dp.rank,
+dp.title, dp.total_point, dp.total_victory, dp.total_podium, dp.total_pole, dp.win_rate, dp. podium_rate, dp.finish_rate,pc.status, pc.status_category
+FROM pole_conversion AS pc
+JOIN `f1-project-498108.3_Mart.drivers_performance` as dp
+ON pc.year = dp.year
+AND pc.driver_name = dp.driver_name

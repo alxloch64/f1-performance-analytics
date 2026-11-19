@@ -1,0 +1,21 @@
+WITH cs AS(
+SELECT
+      DISTINCT (constructorId)
+      , COUNT(raceId) as raceId      
+      , SUM(points) as total_points
+      , SUM(wins) as total_wins
+FROM `f1-project-498108.1_Source.constructor_standings`
+GROUP BY constructorId
+)
+
+SELECT 
+      cs.constructorId
+      , cs.raceId
+      , cs.total_points
+      , cs.total_wins
+      , c.name
+      , c.nationality
+FROM `f1-project-498108.1_Source.constructors` as c
+LEFT JOIN cs
+ON cs.constructorId = c.constructorId
+ORDER BY cs.total_points DESC

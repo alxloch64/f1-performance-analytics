@@ -1,0 +1,8 @@
+SELECT 
+circuit_name,
+ROUND(AVG(SAFE_CAST(fastestLapSpeed AS FLOAT64)),2) AS avg_speed_km,
+COUNT(DISTINCT year) AS nb_saisons
+FROM f1-project-498108.int_merryl.concat_results_race
+WHERE year >= 2006
+GROUP BY circuit_name
+ORDER BY avg_speed_km DESC;
